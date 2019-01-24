@@ -1,0 +1,58 @@
+Proberechnung fuer 4 Punktladungen: 
+
+ATOM    241    N ASP A  15     -1.  0.0  0.0 -2.0 1.850      CP29
+ATOM    243   CA ASP A  15     +1.  0.0  0.0  1.0 2.000      CP29
+ATOM   3651   MG CLJ A 235     -1.  2.0  0.0  1.0 0.650      CP29
+ATOM   3659   NA CLJ A 235     +1.  2.0  0.0 -1.0 1.850      CP29
+
+  992    MG   CLJ    10     1.0      0.0    0.003
+ 1000    NA   CLJ    10     1.0      0.0   -0.031
+ 
+ Ergebnis zu Fuss: -1/sqrt(2) - 1 + 1/2 + 1/(2sqrt(2)) = -0.853553
+
+ Konstante: EL_CHAR*EVWZ/(ANG*4*PI*EPS_0) = 116140.9 
+
+ Ergenbis*konstante = 99132.47 
+                                    gleich, also ok !!!
+ Ergebnis(Programm) = 99132.5     
+
+
+=========================================================================================
+
+Input-File 'cp29.pqr' has      4 Lines
+
+Input-File 'pigment_charges.dat' has   2168 Lines
+
+Input-File 'pigment_koord.dat' has      2 Lines
+
+Input-File 'protein_koord.dat' has      2 Lines
+
+Number of Pigments:      1
+
+Number of Protein-Residues:      1
+
+
+
+
+
+Interaction between Pigments n and m [cm-1]
+
+
+
+
+ ---  Beitrag der einzelnen Aminosaeuren [cm-1] > MIN_CONTRIB =   0  --------------
+
+  0    0   99132.516
+
+
+ --- Pigments-PartialCharges  & Protein-PartialCharges [cm-1] --------------
+
+        Energ_Prot  Ener_Pigm   Energ(Prot+Pigm)  [cm-1]
+
+  1     99132.5         0.0     99132.5
+
+
+
+Number of AminoAcid Atoms, Residues:                                   2             1
+Number of Pigment Atoms, Atoms per Pigment, Number of Pigments:        2         1
+
